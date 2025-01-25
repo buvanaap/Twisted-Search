@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Opossum Search</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 0;
+            padding-top: 100px;
+            min-height: 100vh;
+        }
+        .logo-container {
+            margin-bottom: 20px;
+        }
+        .logo {
+            max-width: 150px;
+        }
+        .search-form {
+            display: flex;
+            border: 1px solid #dfe1e5;
+            border-radius: 24px;
+            padding: 10px 15px;
+            margin-bottom: 20px;
+        }
+        .search-form:hover {
+          box-shadow: 0 1px 6px 0 #20212447;
+        }
+        .search-input {
+            border: none;
+            outline: none;
+            font-size: 16px;
+            flex-grow: 1;
+            margin-left: 5px;
+        }
+        .search-button {
+          border: none;
+          background-color: #f8f9fa;
+          color: #3c4043;
+          font-size: 14px;
+          margin-left: 5px;
+          border-radius: 4px;
+          padding: 5px 15px;
+          cursor: pointer;
+          height: 36px;
+        }
+        .search-button:hover {
+          border: 1px solid #dfe1e5;
+        }
+        .footer {
+            margin-top: auto;
+            padding: 20px;
+            text-align: center;
+            color: #5f6368;
+        }
+    </style>
+</head>
+<body>
+    <div class="logo-container">
+        <img class="logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Opossum_2.jpg/292px-Opossum_2.jpg" alt="Opossum Logo">
+    </div>
+    <form class="search-form" action="https://www.google.com/search" method="get">
+        <input type="text" class="search-input" name="q" placeholder="Search..." required>
+        <button class="search-button" type="submit">Opossum Search</button>
+    </form>
+    <div class="footer">
+        Powered by Opossum Search
+    </div>
+
+    <script>
+        document.querySelector(".search-form").addEventListener("submit", function(event) {
+            const searchInput = document.querySelector(".search-input");
+            searchInput.value += " opossum"; // Append "opossum" to the user's query
+        });
+    </script>
+</body>
+</html>

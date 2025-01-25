@@ -1,6 +1,4 @@
-Since you're using an HTML file for the **Twisted Search** project, we need to adjust the instructions to reflect that you're serving the web app through the HTML file rather than through a dynamic backend running in Docker.
 
-Here’s an updated version of the **README.md** to accommodate the fact that you're working with a static HTML file:
 
 ```markdown
 # Twisted Search

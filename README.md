@@ -85,4 +85,4 @@ http://localhost:5002
 Otherwise, simply open the **`code.html`** file on your local machine.
 
 ## Screenshots
-![image alt]("C:\Users\bhuvana\Desktop\Screenshots\Screenshot (125).png")
+![image alt]("/Screenshots/Screenshot (125).png")

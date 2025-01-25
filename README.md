@@ -86,3 +86,6 @@ Otherwise, simply open the **`code.html`** file on your local machine.
 
 ## Screenshots
 ![image alt](https://github.com/buvanaap/Twisted-Search/blob/77d5972a435c000ab60c99921701d707d3a317ba/Twisted%20Search/Screenshots/Screenshot%20(125).png)
+![image alt](https://github.com/buvanaap/Twisted-Search/blob/77d5972a435c000ab60c99921701d707d3a317ba/Twisted%20Search/Screenshots/Screenshot%20(126).png)
+![image alt](https://github.com/buvanaap/Twisted-Search/blob/77d5972a435c000ab60c99921701d707d3a317ba/Twisted%20Search/Screenshots/Screenshot%20(127).png)
+
